@@ -1,4 +1,4 @@
-const taskesGetId = require('../../models/taskes/taskesGetById');
+const taskesGetId = require('../../models/tasks/tasksGetById');
 
 module.exports = async (id) => {
   // if (!ObjectId.isValid(id)) return null;

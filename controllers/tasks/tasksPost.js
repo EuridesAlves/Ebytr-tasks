@@ -1,5 +1,5 @@
 const { StatusCodes } = require('http-status-codes');
-const tasksPost = require('../../services/taskes/tasksPost');
+const tasksPost = require('../../services/tasks/tasksPost');
 
 module.exports = async (req, res, next) => {
   try {

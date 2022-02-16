@@ -1,4 +1,4 @@
-const tasksGetAll = require('../../models/taskes/tasksGet');
+const tasksGetAll = require('../../models/tasks/tasksGet');
 
 module.exports = async () => {
   const tasks = await tasksGetAll();

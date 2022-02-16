@@ -1,6 +1,6 @@
 const { StatusCodes } = require('http-status-codes');
 
-const tasksGetAll = require('../../services/taskes/tasksGet');
+const tasksGetAll = require('../../services/tasks/tasksGet');
 
 module.exports = async (req, res, next) => {
     try {

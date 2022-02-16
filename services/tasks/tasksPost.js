@@ -1,4 +1,4 @@
-const tasksPost = require('../../models/taskes/tasksPost');
+const tasksPost = require('../../models/tasks/tasksPost');
 // const { quantityValidate } = require('../../middlewares/products/index');
 // const errorReturn = require('../../middlewares/errorReturn');
 
