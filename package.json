@@ -4,6 +4,7 @@
   "description": "Gerenciador de tarefas",
   "main": "node index.js",
   "scripts": {
+    "start": "node index.js",
     "deb": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
