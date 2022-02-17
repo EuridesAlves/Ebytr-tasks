@@ -3,9 +3,9 @@ const { connection } = require('../connections');
 
 module.exports = async ({ id }) => {
   if (!ObjectId.isValid(id)) return null;
-  
+
   const database = await connection();
-  const taskDeleted = await database.collection('tasks')
-  .deleteOne({ _id: id });
+  const taskDeleted = await database.collection('tasks').deleteOne({ _id: ObjectId(id) });
+
   return taskDeleted;
 };
