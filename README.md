@@ -5,4 +5,4 @@ Foi solicitado que se fizesse um controle de tarefa conforme solicitação de de
 Fiz o Back-End, utilizando as bibliotecas http-status-codes e dotenv.
 As tarefas são armazenadas juntamente com a data da criação das mesmas (data esta gerada automaticamente).
 Fica pendente o tratamento do campo status, que por enquanto esta como uma string livre.
-O Front ainda não tive tempo de construir. Confesso que terei dificuldades.
+O Front ainda não tive tempo de construir. 
